@@ -23,3 +23,7 @@ Color changeButtonColor(
     return color2;
   }
 }
+
+bool isValidPassword(String input) {
+  return !input.isEmpty;
+}
